@@ -2,17 +2,17 @@
   <a href="http://nestjs.com"><img src="https://nestjs.com/img/logo_text.svg" alt="Nest Logo" width="320" /></a>
 </p>
 
-# NestJS Zeebe Connector (Transport and Client)
-A zeebe transport and client for NestJS
+
+# NestJS Zeebe Connector (Transport and Client) - Up-to-date
+A zeebe transport and client for NestJS 7.x
 
 Using the zeebe-node module and exposing it as a NestJS transport and module.
 
 <p align="center">
   
-[![Build Status](https://dev.azure.com/payk/PayK%20Public/_apis/build/status/pay-k.nestjs-zeebe?branchName=master)](https://dev.azure.com/payk/PayK%20Public/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dansh.visualstudio.com/nestjs-zeebe/_apis/build/status/danshapir.nestjs-zeebe?branchName=master)](https://dansh.visualstudio.com/nestjs-zeebe/_build/latest?definitionId=1&branchName=master)
 
 </p>
-
 
 ## Install
     npm install nestjs-zeebe
