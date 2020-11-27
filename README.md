@@ -15,7 +15,7 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
 
 
 ## Install
-    npm install @payk/nestjs-zeebe
+    npm install nestjs-zeebe
 
 ## Basic usage
 
@@ -24,7 +24,7 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
     // app.module.ts
     import { Module } from '@nestjs/common';
     import { AppController } from './app.controller';
-    import { ZeebeModule, ZeebeServer } from '@payk/nestjs-zeebe';
+    import { ZeebeModule, ZeebeServer } from 'nestjs-zeebe';
 
     @Module({
     imports: [ ZeebeModule.forRoot({ gatewayAddress: 'localhost:26500' })],
@@ -38,7 +38,7 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
     // main.ts
     import { NestFactory } from '@nestjs/core';
     import { AppModule } from './app.module';
-    import { ZeebeServer } from '@payk/nestjs-zeebe';
+    import { ZeebeServer } from 'nestjs-zeebe';
 
     async function bootstrap() {
     const app = await NestFactory.create(AppModule);
@@ -60,7 +60,7 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
     import { AppService } from './app.service';
     import { ZBClient } from 'zeebe-node';
     import { CreateWorkflowInstanceResponse, CompleteFn, Job } from 'zeebe-node/interfaces';
-    import { ZEEBE_CONNECTION_PROVIDER, ZeebeWorker } from '@payk/nestjs-zeebe';
+    import { ZEEBE_CONNECTION_PROVIDER, ZeebeWorker } from 'nestjs-zeebe';
     import {
         Ctx,
         Payload,
