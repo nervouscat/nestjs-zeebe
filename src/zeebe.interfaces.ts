@@ -1,4 +1,4 @@
-import { ZBWorkerOptions } from "zeebe-node/interfaces";
+import { ZBWorkerOptions } from "zeebe-node";
 
 /**
  *
