@@ -1,4 +1,4 @@
-import { ZBWorkerOptions, ZBClientOptions } from "zeebe-node/interfaces";
+import { ZBWorkerOptions } from "zeebe-node/interfaces";
 
 /**
  *
@@ -19,7 +19,7 @@ export interface ZeebeWorkerProperties {
  */
 export interface ZeebeClientOptions {
     gatewayAddress?: string;
-    options?: ZBWorkerOptions & ZBClientOptions;
+    options?: ZBWorkerOptions;
 }
 
 /**
