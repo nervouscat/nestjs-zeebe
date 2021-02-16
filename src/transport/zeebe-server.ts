@@ -62,7 +62,7 @@ export class ZeebeServer extends Server implements CustomTransportStrategy {
           workerOptions.id = `${workerOptions.taskType}_${process.pid}`;
           const zbWorker = this.client.createWorker(workerOptions.id, workerOptions.taskType, workerOptions.handler, workerOptions.options);
         } catch (ex) {
-
+          this.logger.error('Zeebe error:', ex);
         }
       }
     });
