@@ -10,7 +10,7 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
 
 <p align="center">
   
-[![Build Status](https://dansh.visualstudio.com/nestjs-zeebe/_apis/build/status/danshapir.nestjs-zeebe?branchName=master)](https://dansh.visualstudio.com/nestjs-zeebe/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dansh.visualstudio.com/nestjs-zeebe/_apis/build/status/camunda-community-hub.nestjs-zeebe?branchName=master)](https://dansh.visualstudio.com/nestjs-zeebe/_build/latest?definitionId=2&branchName=master)
 
 </p>
 
