@@ -11,7 +11,10 @@ import {
   ZEEBE_CONNECTION_PROVIDER
 } from '../zeebe.constans';
 import {
-  ZBClient
+  ICustomHeaders,
+  IInputVariables,
+  IOutputVariables,
+  ZBClient, ZBWorkerTaskHandler
 } from 'zeebe-node';
 import * as process from 'process';
 import {
@@ -48,7 +51,7 @@ export class ZeebeServer extends Server implements CustomTransportStrategy {
         let workerOptions = {
           id: '',
           taskType: '',
-          handler: value,
+          handler: value as any,
           options: {},
           onConnectionError: undefined
         }

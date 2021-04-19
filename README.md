@@ -4,7 +4,6 @@
   <a href="http://nestjs.com"><img src="https://nestjs.com/img/logo_text.svg" alt="Nest Logo" width="320" /></a>
 </p>
 
-
 # NestJS Zeebe Connector (Transport and Client) - Up-to-date
 A zeebe transport and client for NestJS 7.x
 
@@ -15,6 +14,9 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
 [![Build Status](https://dansh.visualstudio.com/nestjs-zeebe/_apis/build/status/camunda-community-hub.nestjs-zeebe?branchName=master)](https://dansh.visualstudio.com/nestjs-zeebe/_build/latest?definitionId=2&branchName=master)
 
 </p>
+
+
+## Use v2 and above for Zeebe 1.0.0 and above
 
 ## Install
     npm install nestjs-zeebe
@@ -106,3 +108,9 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
     }
 
 ```
+
+
+<br /><br />
+###### Hint:
+For mac, you need to have xcode installed
+```xcode-select --install```
