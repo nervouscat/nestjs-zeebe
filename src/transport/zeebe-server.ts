@@ -51,7 +51,7 @@ export class ZeebeServer extends Server implements CustomTransportStrategy {
         let workerOptions = {
           id: '',
           taskType: '',
-          handler: value as any,
+          handler: (job, complete, worker) => value(job, {complete, worker}) as any,
           options: {},
           onConnectionError: undefined
         }
@@ -63,7 +63,13 @@ export class ZeebeServer extends Server implements CustomTransportStrategy {
           workerOptions.options = jsonKey.options || {};
 
           workerOptions.id = `${workerOptions.taskType}_${process.pid}`;
-          const zbWorker = this.client.createWorker(workerOptions.id, workerOptions.taskType, workerOptions.handler, workerOptions.options);
+          //workerOptions.id, workerOptions.taskType, workerOptions.handler, workerOptions.options
+          const zbWorker = this.client.createWorker({
+              id: workerOptions.id,
+              taskHandler: workerOptions.handler,
+              taskType: workerOptions.taskType,
+              ...workerOptions.options
+            });
         } catch (ex) {
           this.logger.error('Zeebe error:', ex);
         }

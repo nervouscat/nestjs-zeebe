@@ -1,4 +1,4 @@
-import { ZBWorkerOptions, ZBClientOptions } from "zeebe-node";
+import { ZBWorkerOptions, ZBClientOptions, Job, JobCompletionInterface, IOutputVariables, IInputVariables, ICustomHeaders } from "zeebe-node";
 
 /**
  *
@@ -35,3 +35,13 @@ export interface ZeebeAsyncOptions {
         ...args: any[]
     ) => Promise<ZeebeClientOptions> | ZeebeClientOptions;
 }
+
+
+/**
+ *
+ *
+ * @export
+ * @interface ZeebeJob
+ */
+export interface ZeebeJob extends Job<IInputVariables, ICustomHeaders>, JobCompletionInterface<IOutputVariables>
+{}

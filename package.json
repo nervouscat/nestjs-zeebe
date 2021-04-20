@@ -1,6 +1,6 @@
 {
   "name": "nestjs-zeebe",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Zeebe microservice module and client for nestjs",
   "main": "dist/index.js",
   "repository": {
@@ -20,6 +20,9 @@
   ],
   "author": "Dan Shapir",
   "license": "ISC",
+  "dependencies": {
+    "zeebe-node": "1.0.0-alpha.3"
+  },
   "devDependencies": {
     "@nestjs/common": "^7.5.5",
     "@nestjs/core": "^7.5.5",
