@@ -37,11 +37,14 @@ export interface ZeebeAsyncOptions {
 }
 
 
+
 /**
  *
  *
  * @export
  * @interface ZeebeJob
+ * @extends {Job<IInputVariables, ICustomHeaders>}
+ * @extends {JobCompletionInterface<IOutputVariables>}
  */
 export interface ZeebeJob extends Job<IInputVariables, ICustomHeaders>, JobCompletionInterface<IOutputVariables>
 {}
