@@ -17,6 +17,7 @@ export class ZeebeModule implements OnModuleDestroy {
         connectionProviders.push(this.createConnectionProvider());
         
         return {
+          global: true,
           module: ZeebeModule,
           providers: [
             ...optionsProviders,
@@ -31,6 +32,7 @@ export class ZeebeModule implements OnModuleDestroy {
         connectionProviders.push(this.createConnectionProvider());
 
         return {
+          global: true,
           module: ZeebeModule,
           imports: options.imports || [],
           providers: [
