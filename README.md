@@ -1,7 +1,7 @@
 <p align="center">
 <b>Sponsored by:</b>
 <br />
-  <a href="http://precise.credit" style="background-color: black; padding: 15px; border-radius: 10px"><img src="https://precise.credit/wp-content/uploads/2021/06/precise-logo-light.png" alt="Sponsored by Precise" width="290"  /></a>
+  <a href="http://precise.credit"><img src="https://precise.credit/wp-content/uploads/2022/06/precise-logo-dark-bg.png" alt="Sponsored by Precise" width="320"  /></a>
 </p>
 
 [![Community extension badge](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community) [![Lifecycle: Stable badge](https://img.shields.io/badge/Lifecycle-Stable-brightgreen)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#stable-)
@@ -181,5 +181,5 @@ For mac, you need to have xcode installed
 <p align="center">
 <b>Sponsored by:</b>
 <br />
-  <a href="http://precise.credit" style="background-color: black; padding: 15px; border-radius: 10px"><img src="https://precise.credit/wp-content/uploads/2021/06/precise-logo-light.png" alt="Sponsored by Precise" width="290"  /></a>
+  <a href="http://precise.credit"><img src="https://precise.credit/wp-content/uploads/2022/06/precise-logo-dark-bg.png" alt="Sponsored by Precise" width="320"  /></a>
 </p>
