@@ -1,4 +1,12 @@
+<p align="center">
+<b>Sponsored by:</b>
+<br />
+  <a href="http://precise.credit"><img src="https://precise.credit/wp-content/uploads/2021/06/precise-logo-light.png" alt="Sponsored by Precise" width="290" style="background-color: black; padding: 15px; border-radius: 10px" /></a>
+</p>
+
 [![Community extension badge](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community) [![Lifecycle: Stable badge](https://img.shields.io/badge/Lifecycle-Stable-brightgreen)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#stable-)
+
+
 
 <p align="center">
   <a href="http://nestjs.com"><img src="https://nestjs.com/img/logo_text.svg" alt="Nest Logo" width="320" /></a>
@@ -169,3 +177,9 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
 ###### Hint:
 For mac, you need to have xcode installed
 ```xcode-select --install```
+
+<p align="center">
+<b>Sponsored by:</b>
+<br />
+  <a href="http://precise.credit"><img src="https://precise.credit/wp-content/uploads/2021/06/precise-logo-light.png" alt="Sponsored by Precise" width="290" style="background-color: black; padding: 15px; border-radius: 10px" /></a>
+</p>
