@@ -1,6 +1,6 @@
 {
   "name": "nestjs-zeebe",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Zeebe microservice module and client for nestjs",
   "main": "dist/index.js",
   "repository": {

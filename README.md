@@ -1,5 +1,5 @@
 <p align="center">
-<b>Sponsored by:</b>
+<b>Sponsored by Precise Finance</b>
 <br />
   <a href="http://precise.credit"><img src="https://precise.credit/wp-content/uploads/2022/06/precise-logo-dark-bg.png" alt="Sponsored by Precise" width="320"  /></a>
 </p>
@@ -179,7 +179,7 @@ For mac, you need to have xcode installed
 ```xcode-select --install```
 
 <p align="center">
-<b>Sponsored by:</b>
+<b>Sponsored by Precise Finance</b>
 <br />
   <a href="http://precise.credit"><img src="https://precise.credit/wp-content/uploads/2022/06/precise-logo-dark-bg.png" alt="Sponsored by Precise" width="320"  /></a>
 </p>
