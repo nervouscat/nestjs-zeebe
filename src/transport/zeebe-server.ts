@@ -41,7 +41,7 @@ export class ZeebeServer extends Server implements CustomTransportStrategy {
   }
 
   public close() {
-    this.client.close().then(() => console.log('All workers closed'))
+    this.client.close().then(() => Logger.log('All workers closed'));
   }
 
   private init(): void {
@@ -51,7 +51,7 @@ export class ZeebeServer extends Server implements CustomTransportStrategy {
         let workerOptions = {
           id: '',
           taskType: '',
-          handler: (job, complete, worker) => value(job, {complete, worker}) as any,
+          handler: ((job, complete, worker) => value(job, {complete, worker}) as any) as ZBWorkerTaskHandler,
           options: {},
           onConnectionError: undefined
         }
@@ -66,7 +66,7 @@ export class ZeebeServer extends Server implements CustomTransportStrategy {
           //workerOptions.id, workerOptions.taskType, workerOptions.handler, workerOptions.options
           const zbWorker = this.client.createWorker({
               id: workerOptions.id,
-              taskHandler: workerOptions.handler,
+              taskHandler: workerOptions.handler,// as ZBWorkerTaskHandler<IInputVariables, ICustomHeaders, IOutputVariables>,
               taskType: workerOptions.taskType,
               ...workerOptions.options
             });

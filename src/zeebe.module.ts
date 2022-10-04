@@ -69,6 +69,6 @@ export class ZeebeModule implements OnModuleDestroy {
         };
     }
     onModuleDestroy() {
-        Logger.error('Zeebe Module destroyed')
+        Logger.log('Zeebe Module destroyed')
     }
 }
