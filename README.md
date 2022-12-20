@@ -23,7 +23,6 @@ Using the zeebe-node module and exposing it as a NestJS transport and module.
 
 </p>
 
-
 # Use version 2.x.x and above for Zeebe 1.x.x and above
 
 ## Install
